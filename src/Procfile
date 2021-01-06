@@ -1,3 +1,18 @@
 --------------------------------------------
 **Procfile.windows** :
-web: python manage.py runserver 0.0.0.0:8080
+web: python manage.py runserver 0.0.0.0:5000
+-------------------------------------------
+**requirements.txt** :
+django
+gunicorn
+django-heroku
+------------------------------------------
+**runtime.txt** :
+python-3.7.7
+-------------------------------------------------------
+**Procfile** :
+web: gunicorn <figma>.wsgi --log-file -
+----------------------
+**.env** :
+TIMES=2
+----------------------
