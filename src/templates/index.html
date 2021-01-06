@@ -1,0 +1,142 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'fa/css/all.min.css' %}">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <title>Django + Bootstrap</title>
+    
+    <link rel="stylesheet" href="{% static 'vendor/boxicons/css/boxicons.min.css' %}">
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!--<link href="assets/css/style.css" rel="stylesheet">-->
+</head>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <div class="logo mr-auto">
+        <img src={% static 'img/logo.png' %} alt="" class="img-fluid">
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li><a href="#">SHOP ALL</a></li>
+          <li><a href="#services">MEN</a></li>
+          <li><a href="#portfolio">WOMEN</a></li>
+          <li><a href="#portfolio">ABOUT</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+  
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>FW20 Drop</h1>
+      <h1>Is Out Now</h1>
+      <a href="#about" class="btn-get-started scrollto">SHOP ALL</a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src={% static 'img/portfolio/image15.png' %} class="img-fluid" alt="">
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">BLACK OVERSIZED HOODIE</a></h4>
+                <p>$65</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src={% static 'img/portfolio/image13.png' %} class="img-fluid" alt=""> 
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">OVERSIZED DOUBLE-LAYER HOODIE</a></h4>
+                <p>$95</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src={% static 'img/portfolio/image14.png' %} class="img-fluid" alt="">
+        
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">WHITE LIMITED LONGSLEEVE</a></h4>
+                <p>$80</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="container d-md-flex py-4">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <div class="copyright">
+          &copy; 2020 MIKHAILA PETERSON 
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+      <a href="#" class="youtube"><i class="bx bxl-youtube"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+      </div>
+      <div class="mr-md-auto text-center text-md-right">
+        <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">CONTACT US</a></li>
+          <li class="active"><a href="#services">PRIVACY POLICY</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+      </div>
+    </div>
+  
+  </footer><!-- End Footer -->
+
+
+
+
+
+
+</body>
+
+</html>
